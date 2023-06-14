@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{3fb556cf-e568-433f-8acf-be42a3de4333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{53572b9d-08f0-401e-b1a0-e7f014222c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity">
+      <UniqueIdentifier>{61c05024-d585-4415-a9a9-eeed127f6f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{23353806-5824-4cb7-8aa2-4051e4bf0e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity Manager">
+      <UniqueIdentifier>{af2f9edf-0c83-46f0-8881-5698b5f6585d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{ef8e0aa2-8ae6-424f-9e67-efd7a8e2c133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{871f746c-ab05-409d-9573-7fc3d4ba0680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Systems">
+      <UniqueIdentifier>{16093fae-1afd-418c-9e62-e80f28767f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems">
+      <UniqueIdentifier>{33bd788a-18d6-4595-88fe-9b59914cc10f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SystemManager">
+      <UniqueIdentifier>{6da72f50-207b-4aa9-92eb-86572e33bfee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SystemManager">
+      <UniqueIdentifier>{277ff675-b598-4382-b71f-4e2061ab0a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EntityManager">
+      <UniqueIdentifier>{f690bc35-32a9-4206-81e9-493764ea3d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Systems\RenderSystem">
+      <UniqueIdentifier>{4f128976-c450-4588-be9c-395c65d68b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\RenderSystem">
+      <UniqueIdentifier>{66ad5e7d-fccb-4d06-bc23-8880122a9290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Systems\PhysicsSystem">
+      <UniqueIdentifier>{c398a92e-cc49-4fb7-8d63-4f45281e51fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\PhysicsSystem">
+      <UniqueIdentifier>{bb772fc3-f17e-46d7-86af-07e6e8d90ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WorldManager">
+      <UniqueIdentifier>{c6b8f2be-aee2-41cd-9c79-2a861dc150cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WorldManager">
+      <UniqueIdentifier>{29cfb978-e79a-4564-bdd9-87cce6643b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Systems\CameraSystem">
+      <UniqueIdentifier>{bda7f310-221c-4b98-9c22-e9002d9a09bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResourceManager">
+      <UniqueIdentifier>{152be55e-8d00-407f-915f-1e68a723ebc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ResourceManager">
+      <UniqueIdentifier>{2f6a06d9-5454-4446-b867-5e75a51a30ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ComponentContainer">
+      <UniqueIdentifier>{cba3cc3c-d67f-415e-ada8-d4e3e7dea783}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentBase.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManagerBase.h">
+      <Filter>Header Files\Entity Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeList.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformationMatrix.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="HighResolutionTimer.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon2.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle2.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemBase.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManagerBase.h">
+      <Filter>Header Files\SystemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemInitializer.h">
+      <Filter>Header Files\SystemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentArrayInitializer.h">
+      <Filter>Header Files\Entity Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeCodeInitializer.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWindow.h">
+      <Filter>Header Files\Systems\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Header Files\Systems\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header Files\Systems\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>Header Files\Systems\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Systems\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicGrid.h">
+      <Filter>Header Files\Systems\PhysicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionData.h">
+      <Filter>Header Files\Systems\PhysicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>Header Files\Systems\PhysicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldProperties.h">
+      <Filter>Header Files\Systems\PhysicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManagerBase.h">
+      <Filter>Header Files\WorldManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files\Systems\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders.h">
+      <Filter>Header Files\Systems\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionPair.h">
+      <Filter>Header Files\Systems\PhysicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TargaFileHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSystem.h">
+      <Filter>Header Files\Systems\CameraSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldStateBase.h">
+      <Filter>Header Files\WorldManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManagerBase.h">
+      <Filter>Header Files\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapFont.h">
+      <Filter>Header Files\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelData.h">
+      <Filter>Header Files\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentContainerBase.h">
+      <Filter>Header Files\ComponentContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentContainer.h">
+      <Filter>Header Files\ComponentContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BodyComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentBase.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformationMatrix.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManagerBase.cpp">
+      <Filter>Source Files\SystemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManagerBase.cpp">
+      <Filter>Source Files\EntityManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemBase.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\Systems\RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Systems\RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files\Systems\RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicGrid.cpp">
+      <Filter>Source Files\Systems\PhysicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionData.cpp">
+      <Filter>Source Files\Systems\PhysicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldProperties.cpp">
+      <Filter>Source Files\Systems\PhysicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldManagerBase.cpp">
+      <Filter>Source Files\WorldManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionPair.cpp">
+      <Filter>Source Files\Systems\PhysicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle2.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManagerBase.cpp">
+      <Filter>Source Files\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapFont.cpp">
+      <Filter>Source Files\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelData.cpp">
+      <Filter>Source Files\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
